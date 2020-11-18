@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+body.inicio{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.lista{
+    background: rgb(1,2,3);
+    background: -moz-linear-gradient(90deg, rgba(1,2,3,1) 0%, rgba(76,76,75,1) 40%, rgba(76,76,75,1) 60%, rgba(1,2,3,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(1,2,3,1) 0%, rgba(76,76,75,1) 40%, rgba(76,76,75,1) 60%, rgba(1,2,3,1) 100%);
+    background: linear-gradient(90deg, rgba(1,2,3,1) 0%, rgba(76,76,75,1) 40%, rgba(76,76,75,1) 60%, rgba(1,2,3,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010203",endColorstr="#010203",GradientType=1);
+    padding: 1em 0em;
+}
+
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
+}
+
+h1.title-validation{
+    color: #fff;
+    font-weight: 700;
+}
+
+h1.t-1{
+    color: #fff;
+    font-weight: 700;
+}
+
+h4.t-2{
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn.btn-validation{
+    background-color: #fbbc1e;
+    border-radius: 100px;
+    color: #fff;
+    min-width: 300px;
+    font-size: 1.3em;
+    padding: 7px 25px;
+    font-weight: 600;
+}
+
+img.caluga-precio{
+    max-width: 654px;;
+}

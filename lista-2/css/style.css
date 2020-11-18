@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'TradeGothicLS';
+	src: url('../fonts/TradeGothicLS-BdCn20.eot');
+    src: local('☺'), 
+        url('../fonts/TradeGothicLS-BdCn20.woff') format('woff'), 
+        url('../fonts/TradeGothicLS-BdCn20.ttf') format('truetype'), 
+        url('../fonts/TradeGothicLS-BdCn20.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TradeGothicLS';
+	src: url('../fonts/TradeGothicLS-Cn18.eot');
+    src: local('☺'), 
+        url('../fonts/TradeGothicLS-Cn18.woff') format('woff'), 
+        url('../fonts/TradeGothicLS-Cn18.ttf') format('truetype'), 
+        url('../fonts/TradeGothicLS-Cn18.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html, body {
+    height: 100%;    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+body.inicio{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
+}
+
+h1.title-validation{
+    color: #fff;
+    font-weight: 700;
+}
+
+h1.t-1{
+    color: #fff;
+    font-weight: 700;
+}
+
+h4.t-2{
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn.btn-validation{
+    background-color: #fbbc1e;
+    border-radius: 100px;
+    color: #fff;
+    min-width: 300px;
+    font-size: 1.3em;
+    padding: 7px 25px;
+    font-weight: 600;
+}
+
+/* Tablas */
+.tabla-precios{
+    font-family: 'TradeGothicLS';
+    border: 0; 
+}
+
+.tabla-precios tbody tr td{
+    border: 0;
+    font-size: 1.3em;
+    padding: .55rem;
+}
+
+.tabla-precios tbody tr{    
+    color: #2B3B7C;
+    text-transform: uppercase;
+}
+
+.tabla-precios tbody tr:nth-of-type(odd) {
+    color: #3D559C;
+}
+
+.legal{
+    font-family: 'TradeGothicLS';
+    font-weight: normal;
+    margin: 0;
+}
